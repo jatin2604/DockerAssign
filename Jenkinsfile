@@ -26,7 +26,7 @@ pipeline {
         stage('Dockerpush') {
             steps {
                 
-                sh "docker push javaprog:1" 
+                sh "docker push jatinsingh2604/javaprog:1" 
 
                 }
                             }
