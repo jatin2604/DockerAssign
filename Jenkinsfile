@@ -2,13 +2,7 @@ pipeline {
     agent any
 
        stages {
-        stage('Build') {
-            steps {
-                
-                sh "git clone 'https://github.com/jatin2604/DockerAssign'"
-
-                }
-                        }
+        
         stage('Dockerbuild') {
             steps {
                 
