@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 
-                sh "git 'https://github.com/jatin2604/DockerAssign'"
+                sh "git clone 'https://github.com/jatin2604/DockerAssign'"
 
                 }
                         }
