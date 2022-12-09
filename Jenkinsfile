@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+    checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jatin2604/DockerAssign.git']]])
        stages {
         
         stage('Dockerbuild') {
