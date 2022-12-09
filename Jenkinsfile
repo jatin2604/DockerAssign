@@ -6,7 +6,7 @@ pipeline {
         stage('Dockerbuild') {
             steps {
                 
-               sh "docker build -t jatinsingh2604/javaprogramAPP:2 ."
+               sh "docker build -t jatinsingh2604/javaprogramapp:2 ."
 
                 }
                         }
@@ -20,7 +20,7 @@ pipeline {
         stage('Dockerpush') {
             steps {
                 
-                sh "docker push jatinsingh2604/javaprogramAPP:2" 
+                sh "docker push jatinsingh2604/javaprogramapp:2" 
 
                 }
                             }
